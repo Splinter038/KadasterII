@@ -1,9 +1,15 @@
 package nl.kadaster.maanpercelen.domain;
 
-import java.util.List;
+import java.util.HashMap;
 
 public class KadastraalLand {
-    List<Perceel> percelen;
+    private final HashMap<Integer ,Perceel> percelen = new HashMap<Integer, Perceel>();
 
-    Perceel getPerceelByID;
+    public void addPerceel(Perceel perceel){
+        percelen.put(perceel.getID(), perceel);
+    }
+
+    Perceel getPerceelByID(int ID){
+        return percelen.get(ID);
+    }
 }
