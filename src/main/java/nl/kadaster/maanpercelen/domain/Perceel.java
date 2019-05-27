@@ -15,4 +15,8 @@ public abstract class Perceel {
     public int getID(){
         return this.ID;
     }
+
+    public void setEigenaar(Eigenaar nieuweEigenaar) {
+        this.huidigeEigenaar = nieuweEigenaar;
+    }
 }

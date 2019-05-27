@@ -12,4 +12,14 @@ public class KadastraalLand {
     Perceel getPerceelByID(int ID){
         return percelen.get(ID);
     }
+
+    public void startTransactie(Persoon koper, Persoon verkoper, Perceel perceel) throws Exception {
+
+        if(perceel.geteEigenaar.getId() 1= verkoper.getID()) {
+            throw new Exception("Verkoper is geen eigenaar");
+        }
+
+        perceel.setEigenaar(koper);
+
+    }
 }
