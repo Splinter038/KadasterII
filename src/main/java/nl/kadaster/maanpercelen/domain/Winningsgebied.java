@@ -1,6 +1,6 @@
 package nl.kadaster.maanpercelen.domain;
 
-public abstract class Winningsgebied {
+public abstract class Winningsgebied extends Perceel {
 
     private Opbrengst opbrengst;
 }
