@@ -1,6 +1,6 @@
 package nl.kadaster.maanpercelen.domain;
 
-public class Waterwinperceel extends Perceel {
+public class Waterwinningsperceel extends Winningsgebied {
 
     private double aantalKuub;
 }
