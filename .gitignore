@@ -1,0 +1,9 @@
+/.idea
+.gradle/
+build/
+target/
+*.iml
+caches/
+daemon/
+native/
+buildInfo*.properties
