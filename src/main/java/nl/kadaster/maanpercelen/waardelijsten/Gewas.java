@@ -7,9 +7,9 @@ public enum Gewas {
     SLA("Sla"),
     PAPRIKA("Paprika");
 
-    String roepnaam;
+    String gewasNaam;
 
     Gewas(String roepnaam){
-        this.roepnaam = roepnaam;
+        this.gewasNaam = gewasNaam;
     }
 }
