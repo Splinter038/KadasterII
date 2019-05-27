@@ -1,5 +1,4 @@
 package nl.kadaster.maanpercelen.domain;
 
-public class Eigenaar {
-    
+public class Maan {
 }
